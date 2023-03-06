@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url('https://wallpaperaccess.com/full/1320862.jpg');
+    background-size: cover;
+}
+#container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.7);
+}
+.logo {
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFF;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+nav {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+nav a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #FFA500;
+}
+.search-box {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.search-box input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.search-box button {
+    padding: 5px;
+    background-color: #FFA500;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+}
+.heading {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.heading h1 {
+    font-size: 48px;
+    color: #FFF;
+    text-shadow: 2px 2px 5px #000;
+}
+.styling {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+.styling p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.styling span {
+    font-weight: bold;
+    color: #FFA500;
+}
+.button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.button a {
+    padding: 10px 20px;
+    background-color: #FFA500;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+form {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.7);
+border-radius: 5px;
+}
+form label {
+display: block;
+margin-bottom: 10px;
+font-size: 18px;
+font-weight: bold;
+}
+form input[type="text"], form input[type="email"], form textarea {
+width: 100%;
+padding: 10px;
+border: none;
+border-radius: 5px;
+margin-bottom: 20px;
+font-size: 18px;
+}
+form textarea {
+height: 150px;
+}
+form input[type="submit"] {
+padding: 10px 20px;
+background-color: #FFA500;
+border: none;
+border-radius: 5px;
+color: #FFF;
+text-decoration: none;
+font-size: 24px;
+font-weight: bold;
+cursor: pointer;
+}
+footer {
+background-color: #FFF;
+color: #777;
+padding: 20px;
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+}

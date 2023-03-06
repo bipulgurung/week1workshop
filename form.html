@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            background-color: rgb(206, 204, 204);
+            font-size: 15px;
+        }
+        .form{
+        background-color: white;
+        max-width: 350px;
+        display: flexbox;
+        margin: 20px auto;
+        padding: 10px;
+        
+        }
+        div{
+            margin: 7px;
+        }
+        h1{
+           text-align: center;
+        }
+        textarea{
+            width: 90%;
+        }
+        button{
+            background-color: green;
+            width: 90%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: green;">Herald College Kathmandu Survey Form</h1>
+
+<div class="form">
+    
+    <div>
+    <label for="name">Name</label>
+    <br>
+    <input type="text" placeholder="Enter your name" >
+    </div>
+
+    <div>
+    <label for="Email">Email</label>
+    <br>
+    <input type="email" placeholder="Enter your email">
+    </div>
+
+    <div>
+    <label for="Age">Age</label>
+    <br>
+    <input type="text" placeholder="Enter your age">
+    </div>
+
+    <div>
+    <label for="option">Which option best describes you?</label>
+    </div>
+    <div>
+    <select>
+        <option >Student</option>
+        <option >Employee</option>
+        <option >Teacher</option>
+    </select>
+    </div>
+
+    <div>
+    <label for="recommendation">Would you recommend Herald College Kathmandu to a friend?</label>
+    </div>
+    
+    <div>
+    <input type="radio" name="option">
+    <label for="Yes">Yes</label>
+    </div>
+    <div>
+    <input type="radio" name="option">
+    <label for="No">No</label>
+    </div>
+    <div>
+    <input type="radio" name="option">
+    <label for="Maybe">Maybe</label>
+    </div>
+
+
+    <label for="languages">Languages and Frameworks known (Check all that apply) </label>
+    
+    <div>
+    <input type="checkbox">
+    <label for="C">C</label>
+    </div>
+
+    <div>
+        <input type="checkbox">
+        <label for="C++">C++</label>
+    </div>
+
+    <div>
+     <input type="checkbox">
+     <label for="C#">C#</label>
+    </div>
+
+    <div>
+        <input type="checkbox">
+        <label for="C#">C#</label>
+       </div>
+
+       <div>
+        <input type="checkbox">
+        <label for="C#">C#</label>
+       </div>
+
+       <div>
+        <input type="checkbox">
+        <label for="Java">Java</label>
+       </div>
+
+       <div>
+        <input type="checkbox">
+        <label for="Python">Python</label>
+       </div>
+
+       <div>
+        <input type="checkbox">
+        <label for="">Javascript</label>
+       </div>
+
+       <div>
+        <input type="checkbox">
+        <label for="">React</label>
+       </div>
+
+       <div>
+        <input type="checkbox">
+        <label for="">Angular</label>
+       </div>
+
+       <div>
+        <input type="checkbox">
+        <label for="">Django</label>
+       </div>
+
+       <div>
+        <input type="checkbox">
+        <label for="">Spring</label>
+       </div>
+
+    <label for="suggestions">Any comments or suggestions</label>
+    <div>
+    <textarea name="" id="message"></textarea>
+    </div>
+
+    <div>
+        <button>Submit</button>
+    </div>
+</div>
+</body>
+</html>
